@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    .container {
+        width: 80%;
+        margin: 15px auto;
+        .block {
+            width: 500px;
+            height: 200px;
+            border: 1px solid rgb(168, 168, 168);
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px 1px #000;
+            display: inline-block;
+
+            span{
+                position: relative;
+                color: rgb(165, 42, 42);
+                font-size: 30px;
+                left: 200px;
+                top: 80px;
+            }
+        }
+
+        .block:hover {
+            background-color: rgb(165, 42, 42);
+            border: 1px solid rgb(165, 42, 42);
+            span{
+                color: rgb(255, 255, 255);
+                font-size: 30px;
+            }
+        }
+    }
+
+}
